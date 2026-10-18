@@ -1,3 +1,128 @@
 body{
-    background-color: aquamarine;
+    background-image: url("https://img.magnific.com/vector-gratis/lineas-dinamicas-fondo-estilo-papel_23-2149008629.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+#titulo{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#btn-guardar{
+    background-color: rgb(153, 153, 157);
+    border: black solid 2px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#btn-guardar:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+
+#nombre{
+    background-color: rgb(255, 255, 255);
+    border: black solid 2px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 12px;
+    cursor: roe;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#ciudad{
+    background-color: rgb(255, 255, 255);
+    border: black solid 2px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 12px;
+    cursor: roe;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#error{
+    color: red;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+#saludo{
+    color: rgb(170, 161, 161);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#btn-borrar{
+    background-color: rgb(255, 255, 255);
+    border: black solid 2px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#btn-borrar:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+
+#btn-volver{
+    background-color: rgb(43, 43, 80);
+    border: black solid 2px;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#btn-volver:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+
